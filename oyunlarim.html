@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="tr">
-    <head>
-        <meta charset="utf-8">
-        <title>Quiet'in Kişisel Web Sitesi</title>
-        <meta name="description" content="Quiet'in Kişisel Web Sitesi">
-        <meta name="keywords" content="Quiet,Alper,web,site">
-    </head>
-    <head>
-        <style>
-            .container {
-                text-align: center;
-            }
-            .containerr {
-                text-align: right;
-            }
-        </style>
-    </head>
-    <body>
-        <nav id="container">
-            <center>
-            <h1>Quiet</h1>
-            <a href="index.html">Anasayfa</a> |
-            <a href="cv.html">Özgeçmiş</a> |
-            <a href="oyunlarim.html">Oyunlarim</a> |
-            <a href="iletisim.html">İletişim</a>
-            <br>
-            <hr>
-            <h1>Oyunlar</h1>
-            </center>
-            <div class="container">
+<head>
+    <meta charset="utf-8">
+    <title>Quiet'in Kişisel Web Sitesi</title>
+    <meta name="description" content="Quiet'in Kişisel Web Sitesi">
+    <meta name="keywords" content="Quiet,Alper,web,site">
+    <style>
+        .container {
+            text-align: center;
+        }
+        .containerr {
+            text-align: right;
+            position: relative;
+            top: -200px; /* Bu değeri ihtiyacınıza göre ayarlayabilirsiniz */
+        }
+    </style>
+</head>
+<body>
+    <nav id="container">
+        <center>
+        <h1>Quiet</h1>
+        <a href="index.html">Anasayfa</a> |
+        <a href="cv.html">Özgeçmiş</a> |
+        <a href="oyunlarim.html">Oyunlarim</a> |
+        <a href="iletisim.html">İletişim</a>
+        <br>
+        <hr>
+        <h1>Oyunlar</h1>
+        </center>
+        <div class="container">
             <p>Euro Truck Simulator <strong>↓</strong></p>
             <img src="./Resimler/ets2.jpg" height="185" width="145">
             <br>
@@ -39,30 +39,29 @@
             <hr>
             <p>Roblox <strong>↓</strong></p>
             <img src="./Resimler/Roblox.png" height="160" width="148">
-            </div>
-            <div class="containerr">
-            <p>Asetta Corsa <strong>↓</strong></p>
-            <img src="./Resimler/">
-
-
-
-
-            </div>
-        </nav>
-    </body>
-    <body>
+        </div>
+        <div class="containerr">
+            <p>Counter Strike 2 <strong>↓</strong></p>
+            <img src="./Resimler/cs2.jpg" height="160">
+        </div>
+    </nav>
+    <hr>
+    <br>
+    <center>
+        <h1>Devamı Yakında...</h1>
         <hr>
         <br>
-            <center>
-            <h1>Devamı Yakında...</h1>
-            <hr>
-            <br>
         <form name="Öneri" action="öneri.php" method="get">
-        <table>
-            <tr><td>Öneri:</td><td><textarea name="mesaj" cols="40" rows="5" placeholder="Oyun Önerilerinizi Beklerim..."></textarea></td></tr>
-             <tr><td><input type="submit"><input type="reset"></td></tr> 
-        </table>
+            <table>
+                <tr>
+                    <td>Öneri:</td>
+                    <td><textarea name="mesaj" cols="40" rows="5" placeholder="Oyun Önerilerinizi Beklerim..."></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"><input type="reset"></td>
+                </tr> 
+            </table>
         </form>
-            </center>
-    </body>
+    </center>
+</body>
 </html>
