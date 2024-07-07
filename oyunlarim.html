@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="utf-8">
-    <title>Quiet'in Kişisel Web Sitesi</title>
-    <meta name="description" content="Quiet'in Kişisel Web Sitesi">
-    <meta name="keywords" content="Quiet,Alper,web,site">
-    <style>
-        .container {
-            text-align: center;
-        }
-        .containerr {
-            text-align: right;
-            position: relative;
-            top: -216px;
-        }
-    </style>
-</head>
-<body>
-    <nav id="container">
-        <center>
-        <h1>Quiet</h1>
-        <a href="index.html">Anasayfa</a> |
-        <a href="cv.html">Özgeçmiş</a> |
-        <a href="oyunlarim.html">Oyunlarim</a> |
-        <a href="iletisim.html">İletişim</a>
-        <br>
-        <hr>
-        <h1>Oyunlar</h1>
-        </center>
+    <head>
+        <meta charset="utf-8">
+        <title>Quiet'in Kişisel Web Sitesi</title>
+        <meta name="description" content="Quiet'in Kişisel Web Sitesi">
+        <meta name="keywords" content="Quiet,Alper,web,site">
+        <style>
+            .container {
+                text-align: center;
+            }
+            .content {
+                max-width: 800px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+            }
+            textarea {
+                width: 100%;
+            }
+            table {
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Quiet</h1>
+            <a href="index.html">Anasayfa</a> |
+            <a href="cv.html">Özgeçmiş</a> |
+            <a href="Oyunlarim.html">Oyunlarım</a> |
+            <a href="iletisim.html">İletişim</a>
+            <br>
+            <hr>
+            <h1>Oyunlar</h1>
+        </nav>
         <div class="container">
             <p>Euro Truck Simulator <strong>↓</strong></p>
-            <img src="./Resimler/ets2.jpg" height="185" width="145">
+            <img src="/Resimler/ets2.jpg" height="185" width="145">
             <br>
             <hr>
             <p>Minecraft <strong>↓</strong></p>
-            <img src="./Resimler/Minecraft.png" height="150" width="146">
+            <img src="/Resimler/Minecraft.png" height="150" width="146">
             <br>
             <hr>
             <p>Roblox <strong>↓</strong></p>
-            <img src="./Resimler/Roblox.png" height="160" width="148">
+            <img src="/Resimler/Roblox.png" height="160" width="148">
         </div>
-        <div class="containerr">
-            <p>Counter Strike 2 <strong>↓</strong></p>
-            <img src="./Resimler/cs2.jpg" height="160">
-        </div>
-    </nav>
-    
-    <hr>
-    <br>
-    <center>
-        <h1>Devamı Yakında...</h1>
         <hr>
-        <br>
-        <form name="Öneri" action="öneri.php" method="get">
-            <table>
-                <tr>
-                    <td>Öneri:</td>
-                    <td><textarea name="mesaj" cols="40" rows="5" placeholder="Oyun Önerilerinizi Beklerim..."></textarea></td>
-                </tr>
-                <tr>
-                    <td><input type="submit"><input type="reset"></td>
-                </tr> 
-            </table>
-        </form>
-    </center>
-</body>
+        <div class="content">
+            <h1>Devamı Yakında...</h1>
+            <hr>
+            <br>
+            <form name="Öneri" action="öneri.php" method="get">
+                <table>
+                    <tr>
+                        <td>Öneri:</td>
+                        <td><textarea name="mesaj" cols="40" rows="5" placeholder="Oyun Önerilerinizi Beklerim..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit">
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
 </html>
